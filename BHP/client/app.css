@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.switch-field {
+	display: flex;
+	margin-bottom: 36px;
+	overflow: hidden;
+}
+
+.switch-field input {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	overflow: hidden;
+}
+
+.switch-field label {
+	background-color: #e4e4e4;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+	padding: 8px 16px;
+	margin-right: -1px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+	transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+	cursor: pointer;
+}
+
+.switch-field input:checked + label {
+	background-color: #f1c972d2;
+	box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+	border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+	border-radius: 0 4px 4px 0;
+}
+
+.form {
+    max-width: 200px; /* Adjusted max-width */
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    line-height: 1.625;
+    margin: 20px auto; /* Adjusted margin */
+    padding: 20px; /* Adjusted padding */
+    border-radius: 10px; /* Added border-radius for rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Added box-shadow for depth */
+    background-color: #9f9393; /* Added background color */
+
+
+    float: left; /* Add this line to float the forms side by side */
+    clear: none; 
+    z-index: 2;
+    padding-left: 16px;
+}
+
+
+h2 {
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+.area{
+  font-family: "Cursive", sans-serif;  outline: 0;
+  background: #d6bcd4;
+  width: 76%;
+  border: 0;
+  margin: 0 0 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.location{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #d6bcd4;
+  width: 76%;
+  border: 0;
+  margin: 0 0 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.submit{
+  background: #cf86dc;
+  width: 76%;
+  border: 0;
+  margin: 25px 0 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+	height: 35px;
+	text-align: center;
+	border-radius: 15px;
+}
+
+.result {
+    background: linear-gradient(45deg, #ff4e50, #f9d423); /* Use a gradient background for a fancy effect */
+    color: #fff; /* Set text color to white for better contrast */
+    width: 80%; /* Increase width for better visibility */
+    max-width: 400px; /* Limit maximum width for readability */
+    margin: 25px 0 10px; /* Center the result and adjust margin */
+    padding: 15px; /* Add padding for better spacing */
+    border: 2px solid #fff; /* Add a white border for contrast */
+    border-radius: 10px; /* Add rounded corners for a sleek look */
+    box-sizing: border-box;
+    font-size: 18px; /* Increase font size for readability */
+    line-height: 1.6; /* Adjust line height for better spacing */
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for emphasis */
+}
+
+
+.img {
+  background: url('https://images.unsplash.com/photo-1455587734955-081b22074882?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+	background-repeat: no-repeat;
+  background-size: auto;
+  background-size:100% 100%;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+body, html {
+  height: 100%;
+}
+
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form + .form {
+    margin-left: 20px; /* Adjust the margin-left to create the desired gap */
+}
+
+.clearfix {
+    display: flex; /* Add flexbox display to the parent container */
+    justify-content: center; /* Center the flex items horizontally */
+}
+
+.form-container {
+    display: flex;
+}
+
+.fancy-heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Choose a modern font */
+    font-size: 30px; /* Adjust font size */
+    color: #2c435b; /* Set text color */
+    letter-spacing: 3px; /* Add letter spacing */
+    text-transform: uppercase; /* Convert text to uppercase */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow */
+    text-align: center;
+}

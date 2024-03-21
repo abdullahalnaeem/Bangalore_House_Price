@@ -12,6 +12,8 @@ The estimation :-
 ![Screenshot (375)](https://github.com/abdullahalnaeem/Bengalore_House_Price/assets/69196580/a9173e8c-53ea-4294-9a4d-1e9992178072)
 
 
+Front end view :- https://abdullahalnaeem.github.io/Bangalore_House_Price/
+
 
 
 
